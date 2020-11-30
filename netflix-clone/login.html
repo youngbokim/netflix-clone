@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN | NETFLIX</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      #login {
+        width: 450px;
+        height: 660px;
+        padding: 60px 68px 40px;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      h2 {
+        font-size: 38px;
+        color: rgb(245, 245, 247);
+        margin-bottom: 30px;
+      }
+
+      #login_id {
+        width: 100%;
+        height: 50px;
+        background: rgb(245, 245, 247);
+        border: none;
+        border-radius: 3px;
+        color: rgb(17, 17, 17);
+        margin-bottom: 15px;
+        padding: 5px 10px;
+      }
+
+      #login_password {
+        width: 100%;
+        height: 50px;
+        background: rgb(245, 245, 247);
+        border: none;
+        border-radius: 3px;
+        color: rgb(17, 17, 17);
+        margin-bottom: 50px;
+        padding: 5px 10px;
+      }
+
+      #login_submit {
+        width: 100%;
+        height: 50px;
+        background: rgb(229, 9, 20);
+        border: none;
+        border-radius: 3px;
+        color: rgb(17, 17, 17);
+        margin-bottom: 40px;
+        color: white;
+        font-size: 20px;
+      }
+
+      .signin_text {
+        color: #757575;
+      }
+
+      .signin_text a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="login" action="">
+      <h2>로그인</h2>
+      <input type="email" id="login_id" name="id" placeholder="이메일 주소" />
+      <input
+        type="password"
+        id="login_password"
+        name="password"
+        placeholder="비밀번호"
+      />
+      <input type="submit" id="login_submit" value="로그인하기" />
+
+      <p class="signin_text">
+        Netflix 회원이 아닌가요? <a>지금 가입하세요.</a>
+      </p>
+    </form>
+  </body>
+</html>

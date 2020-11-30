@@ -1,0 +1,133 @@
+1. 프로젝트명: Netflix Korea Website Renewal Project
+
+2. 프로젝트 기간: 2020.11.09 ~ 11.20 (2주간, 8days)
+
+3. 프로젝트 담당자: 
+1) 기획자 | 넷플릭스 
+2) 디자인 | 넷플릭스 
+3) 구현 | 김영보
+
+4. 구현 플랫폼 
+1) OS: Windows, macOS, Linux 모두 동작. 
+2) Back-end 기술 및 Database: PHP, mySQL로 구축. 
+3) Front-end 기술 및 라이브러리: HTML5, CSS3, Javascript ES6 표준으로 구현 
+4) Code Editor & Tools: Visual Studio Code 1.41ver (라이브러리등은 버젼 명시 꼭!), 잔디(Jandi) 플랫폼 사용
+5) 잔디(Jandi) 프로젝트 팀명: 프론트엔드 부트캠프 10기
+
+5. 반응형 중단점 설정 (Break Points)
+
+1) 데스크탑
+min-width: 1200px
+min-width: 950px and max-width: 1199px
+
+2) 태블릿
+min-width: 550px and max-width:949px
+
+3) 모바일
+max-width: 549px
+
+6. 정보 구조 (IA)
+
+1) Home
+
+  로그인
+    회원가입
+    비밀번호 찾기
+    결제 페이지
+  자주 묻는 질문
+  고객 센터
+  계정
+  미디어 센터 
+  투자 정보(IR)
+  입사 정보
+  Netflix 지원 디바이스
+  이용약관
+  쿠키설정
+  회사 정보
+  문의하기
+  속도 테스트 
+  법적 고지
+  Netflix 오리지널
+
+2) Membership
+
+  외국영화
+  한국영화
+  한국드라마
+
+  액션
+  호러
+  드라마
+
+7. 디렉토리 설정
+
+1) root
+img
+css
+videos
+fonts
+index.html 
+
+2) sub directory
+member
+  img
+  videos
+  member.html
+
+8. 파일 네이밍
+category_imagename_size 
+ex) hero_iphone12_large / hero_iphone12_1200x700
+
+9. CSS 네이밍
+1) 아이디
+섹션에 항상 부여
+하나의 요소에만 사용
+
+2) 클래스명
+a.기본
+category_classname_tag
+ex) hero_title / hero_title_wrap
+b.배경
+wrap 사용
+container
+c.요소 종류
+버튼 bt_
+
+10. 컬러
+
+1) Main Color
+배경 rgb(0,0,0)
+텍스트 rgb(255,255,255)
+
+2) Sub Color
+배경 rgb(48,48,48)
+텍스트 rgb(117,117,117)
+
+3) Point Color
+rgb(229,9, 20)
+
+11. 타이포그래피 위계
+
+1) 제목용
+h1 
+font-family: 'Netflix-sans'
+font-style: normal 
+font-weight: 600
+font-size: 60px
+line-height: 60px 
+letter-spacing: normal
+-webkit-font-smoothing: antialiased
+word-break: keep-all
+
+h2 
+h3
+h4
+h5 
+h6 
+
+2) 본문용
+p 
+p large 
+p small
+p dark
+p light

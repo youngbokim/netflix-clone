@@ -1,0 +1,865 @@
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/KR-ko-20201019-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero_wrap {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.72);
+  border-bottom: 8px solid #222;
+}
+
+.nav_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 56px;
+}
+
+.main_logo {
+  width: 172px;
+  fill: rgb(229, 9, 20);
+}
+
+.bt_login {
+  width: 100px;
+  height: 40px;
+  background: rgb(229, 9, 20);
+  font-size: 16px;
+  color: rgb(245, 245, 247);
+  border: none;
+}
+
+.hero_title_wrap {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 180px;
+  margin-bottom: 20px;
+}
+
+.hero_title {
+  font-size: 50px;
+  line-height: 84px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero_title_sub {
+  font-size: 26px;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+.hero_join_wrap {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero_join_wrap p {
+  text-align: center;
+}
+
+.join_input {
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.bt_join {
+  width: 150px;
+  height: 50px;
+  line-height: 5px;
+  background: rgb(229, 9, 20);
+  font-size: 16px;
+  color: rgb(245, 245, 247);
+  border: none;
+  border-radius: 0 10px 10px 0;
+}
+
+/* Feature */
+
+#feature {
+  width: 100%;
+}
+
+.tv_wrap {
+  width: 100%;
+  border-bottom: 8px solid #222;
+  padding: 50px 0;
+}
+
+.tv {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+.tv li {
+  width: 50%;
+  height: 450px;
+  position: relative;
+  list-style: none;
+}
+
+.tv li:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-right: 100px;
+}
+
+.tv_title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.tv_sub_title {
+  font-size: 24px;
+  font-weight: 400;
+  word-break: keep-all;
+}
+
+.tv_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  z-index: 10;
+}
+
+.tv_video {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  z-index: 9;
+}
+
+/* Feature - offline */
+
+.offline_wrap {
+  width: 100%;
+  border-bottom: 8px solid #222;
+  padding: 50px 0;
+}
+
+.offline {
+  width: 1200px;
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.offline li {
+  width: 50%;
+  height: 450px;
+  position: relative;
+}
+
+.offline li:first-child {
+  background: url(../img/mobile-0819.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.offline li:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.offline_img_box {
+  width: 360px;
+  height: 100px;
+  background-color: #000;
+  border: 2px solid #222;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  margin: 340px auto;
+}
+
+.offline_img_1 {
+  width: 60px;
+}
+
+.offline_img_2 {
+  width: 50px;
+  height: 50px;
+}
+
+.offline_img_text {
+  width: 150px;
+  text-align: left;
+}
+
+.offline_img_text span {
+  display: block;
+}
+
+.offline_img_text span:last-child {
+  color: rgb(0, 113, 235);
+}
+
+.offline_title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  word-break: keep-all;
+}
+
+.offline_sub_title {
+  font-size: 24px;
+  font-weight: 400;
+  word-break: keep-all;
+}
+
+/* Featured - Device */
+
+.device_wrap {
+  width: 100%;
+  border-bottom: 8px solid #222;
+  padding: 50px 0;
+}
+
+.device {
+  width: 1100px;
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.device li {
+  width: 50%;
+  height: 450px;
+  position: relative;
+}
+
+.device li:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.device_title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  word-break: keep-all;
+}
+
+.device_sub_title {
+  font-size: 24px;
+  font-weight: 400;
+  word-break: keep-all;
+}
+
+.device_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  z-index: 10;
+}
+
+.device_video {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  width: 380px;
+  z-index: 9;
+}
+
+/* FAQ style */
+
+#faq {
+  width: 100%;
+  padding: 100px 0;
+  position: relative;
+  border-bottom: 8px solid #222;
+}
+.faq_wrap {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto 100px;
+}
+.faq_title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.faq_list {
+  width: 100%;
+  max-height: 60px;
+  margin: 0 0 20px;
+  overflow: hidden;
+  transition: max-height 0.4s;
+}
+.faq_list_title {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(48, 48, 48);
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+  margin: 0 0 4px;
+  border-radius: 6px;
+}
+
+.faq_list_title:hover {
+  cursor: pointer;
+}
+
+.faq_list_answer {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  background-color: rgb(48, 48, 48);
+  padding: 40px;
+  font-size: 20px;
+  word-break: break-all;
+  border-radius: 6px;
+}
+
+.openstate_icon {
+  transition: all 0.4s;
+  color: rgb(200, 200, 200);
+}
+
+#faq_icon {
+  width: 90px;
+  height: 90px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 45px;
+  border: 3px solid white;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  top: 30px;
+  left: 915px;
+}
+
+.faq_join_wrap {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+.faq_join_wrap p {
+  text-align: center;
+}
+
+.input_email {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  padding: 0 20px;
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+.bt_join {
+  width: 150px;
+  height: 40px;
+  background: rgb(229, 9, 20);
+  color: white;
+  font-size: 16px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+}
+
+.snowball {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  position: absolute;
+  z-index: 200;
+}
+
+/* fade-in animation */
+#pos {
+  position: fixed;
+  font-size: 40px;
+}
+
+@keyframes fade_in_opacity {
+  from {
+    opacity: 0;
+    padding-top: 150px;
+  }
+  to {
+    opacity: 1;
+    padding-top: 0px;
+  }
+}
+
+#tv_text_li,
+#offline_text_li,
+#divice_text_li {
+  opacity: 0;
+}
+
+/* footer Style */
+footer {
+  width: 100%;
+  padding: 40px;
+}
+
+.footer_wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer_menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer_menu ul {
+  width: 20%;
+}
+
+.footer_menu ul li {
+  margin-bottom: 10px;
+}
+
+.footer_menu ul li a {
+  font-size: 14px;
+}
+
+.footer_address {
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #757575;
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.company_info {
+  width: 100%;
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.company_info span {
+  margin-right: 15px;
+}
+
+.site_info {
+  width: 100%;
+  font-size: 12px;
+  color: #757575;
+}
+
+.text_red {
+  color: rgb(229, 9, 20);
+  margin-right: 0px;
+}
+
+.mobile_footer_menu {
+  display: none;
+}
+
+/* 반응형 스타일 */
+
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+  .tv {
+    width: 100%;
+  }
+
+  .tv_img {
+    width: 100%;
+    top: 20px;
+  }
+
+  .tv_video {
+    top: 70px;
+    width: 80%;
+    left: 13.33%;
+  }
+
+  .tv li:first-child {
+    padding: 0 50px;
+  }
+
+  .tv_title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .tv_sub_title {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  /* offline */
+
+  .offline_wrap {
+    padding: 50px 0;
+  }
+
+  .offline {
+    width: 100%;
+  }
+
+  .offline li {
+    width: 50%;
+    height: 450px;
+    position: relative;
+  }
+
+  .offline_title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .offline_sub_title {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .offline li:first-child {
+    padding: 0 50px;
+  }
+
+  .offline li:last-child {
+    padding: 0 25px;
+  }
+
+  /* device  */
+
+  .device {
+    width: 100%;
+  }
+
+  .device li:first-child {
+    padding: 0 50px;
+  }
+
+  .device_title {
+    text-align: center;
+    font-size: 40px;
+  }
+  .device_sub_title {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .device_img {
+    width: 100%;
+    top: 20px;
+  }
+
+  .device_video {
+    top: 70px;
+    left: 16.666%;
+    width: 63.333%;
+  }
+
+  /* FAQ */
+  .faq_wrap {
+    width: 930px;
+  }
+
+  .footer_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* 960 under responsive */
+
+/* Mobile media query */
+
+@media screen and (max-width: 380px) {
+  .nav_wrap {
+    padding: 20px 18.75px 0;
+  }
+
+  .main_logo {
+    width: 101px;
+    height: 32px;
+  }
+
+  .bt_login {
+    width: 53.38px;
+    height: 27px;
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  .hero_title_wrap {
+    width: 100%;
+    padding: 50px 0 10px 0;
+  }
+
+  .hero_title {
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .hero_title_sub {
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .hero_join_wrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .join_input {
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .bt_join {
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  .hero_join_wrap p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .hero_join_wrap p:last-child {
+    font-size: 14px;
+  }
+
+  /* tv */
+
+  .tv {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .tv_img {
+    top: 0px;
+    width: 80%;
+    left: 10%;
+  }
+
+  .tv_video {
+    top: 75px;
+    width: 64%;
+    left: 20%;
+  }
+
+  .tv_title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .tv_sub_title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .tv li {
+    width: 100%;
+  }
+
+  .tv li:first-child {
+    align-items: center;
+    padding: 50px 50px 0;
+    height: auto;
+  }
+
+  .tv li:last-child {
+    height: 300px;
+    padding: 0 50px;
+  }
+
+  /* device */
+  .device li {
+    height: 300px;
+  }
+
+  /* offline */
+
+  .offline {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .offline_wrap {
+    padding-top: 50px;
+  }
+
+  .offline_title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .offline_sub_title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .offline li {
+    width: 100%;
+  }
+
+  .offline li:first-child {
+    padding: 0 50px;
+  }
+
+  .offline li:last-child {
+    height: auto;
+    padding: 50px 70px;
+  }
+
+  .offline_img_box {
+    width: 100%;
+    height: 100px;
+  }
+
+  /* device  */
+
+  .device_wrap {
+    padding-bottom: 10px;
+  }
+
+  .device {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .device_title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .device_sub_title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .device li {
+    width: 100%;
+  }
+
+  .device li:first-child {
+    padding: 0 50px;
+    align-items: center;
+    height: auto;
+  }
+
+  .device_img {
+    top: 0px;
+    width: 80%;
+    left: 10%;
+  }
+
+  .device_video {
+    top: 50px;
+    left: 25%;
+    width: 50%;
+  }
+
+  /* FAQ css */
+
+  #faq {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+
+  .faq_title {
+    font-size: 26px;
+  }
+
+  .faq_wrap {
+    width: calc(100% - 60px);
+  }
+
+  .faq_list {
+    width: 100%;
+  }
+
+  .faq_list_title {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  /* footer Style */
+  footer {
+    width: 100%;
+    padding: 40px 30px;
+  }
+
+  .footer_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer_menu {
+    display: none;
+  }
+
+  .mobile_footer_menu {
+    display: flex;
+  }
+
+  .mobile_footer_menu ul {
+    width: 50%;
+  }
+
+  .mobile_footer_menu li {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+
+  .company_info,
+  .site_info {
+    font-size: 12px;
+  }
+}
+
+/* landscape mode media query */
+
+@media screen and (max-width: 900px) and (max-height: 480px) {
+  #hero {
+    height: auto;
+  }
+
+  .hero_wrap {
+    height: auto;
+  }
+}
